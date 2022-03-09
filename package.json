@@ -1,0 +1,29 @@
+{
+    "name": "kubide",
+    "version": "0.0.0",
+    "description": "Tu jefe está loco, todos lo sabemos, porque sino, no es lógica la conversación que has tenido esta mañana con él.",
+    "bin": "server.js",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AnaissR92/Kubide"
+    },
+    "author": "Anaiss Reyes Orta 'AnaissR92  <inveshuelva@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AnaissR92/kubide/issues"
+    },
+    "homepage": "https://github.com/AnaissR92/kubide#readme",
+    "dependencies": {
+      "body-parser": "^1.16.1",
+      "express": "^4.14.1",
+      "finalhandler": "^1.0.0"
+    },
+    "devDependencies": {
+      "mocha": "^3.2.0",
+      "supertest": "^3.0.0"
+    }
+  }
