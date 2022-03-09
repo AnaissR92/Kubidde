@@ -9,16 +9,27 @@ Y te ha pedido a tí que te encargues de hacer el API del proyecto, es el moment
 Te has sentido como Marty Mcfly en Regreso al Futuro, y le has preguntado si conocía las diferentes herramientas de mensajería que ya existen en el mercado, pero él se ha negado a escucharte y ha seguido con lo suyo, así que te has resignado y has empezado a desgranar el proyecto en historias de usuario para ponerte a desarrollar el API:
 
 Como USUARIO quiero poder llamar al API, es decir, quiero poder tener un servidor local al que hacer una llamada HTTP y que me devuelva algo.
+
 Como USUARIO quiero poder llamar al API para crear usuarios, teniendo en cuenta que no se podrán registrar dos veces con el mismo email.
+
 Como USUARIO quiero poder llamar al API para hacer login y obtener un token de autenticación para las siguientes peticiones.
+
 Como USUARIO quiero poder llamar al API para editar mis datos.
+
 Como USUARIO quiero poder llamar al API para consultar mis datos.
+
 Como USUARIO quiero poder llamar al API para obtener la lista de usuarios activos.
+
 Como USUARIO quiero poder llamar al API para crear un nuevo mensaje.
+
 Como USUARIO quiero poder llamar al API para consultar mis mensajes.
+
 Como USUARIO quiero poder llamar al API para indicar si estoy activo o no.
+
 Como USUARIO no quiero recibir mensajes si no estoy activo.
+
 Como USUARIO quiero que se guarden notificaciones cada vez que recibo un mensaje.
+
 Como USUARIO quiero poder llamar al API para consultar mis notificaciones.
 
 En cuanto a tecnologías, no presta ninguna atención a ese punto, pero sí que te ha pedido que sea con NestJS porque ha oído por ahí que existe ese framework que mola mucho, así que ya sabes que muchas veces es mejor hacer caso a sus “locuras”.
