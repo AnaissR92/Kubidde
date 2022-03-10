@@ -9,6 +9,7 @@ Y te ha pedido a tí que te encargues de hacer el API del proyecto, es el moment
 Te has sentido como Marty Mcfly en Regreso al Futuro, y le has preguntado si conocía las diferentes herramientas de mensajería que ya existen en el mercado, pero él se ha negado a escucharte y ha seguido con lo suyo, así que te has resignado y has empezado a desgranar el proyecto en historias de usuario para ponerte a desarrollar el API:
 
 Como USUARIO quiero poder llamar al API, es decir, quiero poder tener un servidor local al que hacer una llamada HTTP y que me devuelva algo.
+En este caso creamos un servidor HTTPS base, creamos un servidor que nos devuelva el texto sin formato, cubriendonos así los conceptos principales para confi nuestro servidor, creamos el servidor y revisamos desde el npm si todo funciona correctamente.
 
 Como USUARIO quiero poder llamar al API para crear usuarios, teniendo en cuenta que no se podrán registrar dos veces con el mismo email.
 
