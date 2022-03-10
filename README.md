@@ -1,4 +1,4 @@
-# Kubidde
+# Kubide
 Ejemplo para kubide
 Tu jefe está loco, todos lo sabemos, porque si no, no es lógica la conversación que has tenido esta mañana con él.
 
