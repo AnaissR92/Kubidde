@@ -1,0 +1,19 @@
+// Import http module (NODE JS Module)
+const http = require('http');
+
+// Indicate where the server listens
+const por = 8043;
+
+function  handleRequest(request, response){
+    console.log("Server is working....");
+
+
+// Initiate a server instance
+const server = http.createServer(handleRequest);
+
+// Start Our Server
+
+server.listen(port, function() {
+    console.log("Server is runing on http://localhost:%s", port);
+}
+)}
