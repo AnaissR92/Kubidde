@@ -47,7 +47,7 @@ describe('notes', function()
     {
       const user = 'user'
       const note = 'note'
-      const noteId = 0
+      const noteId = 0,
 
       const app = kubide()
 
@@ -76,7 +76,7 @@ describe('notes', function()
       const note = 'note'
       const noteId = 0
 
-      const app = kubide()
+      const app = kubid()
 
       return createUser(app, user)
       .then(function()
@@ -233,7 +233,7 @@ describe('favorites', function()
     {
       return supertest(app)
         .post('/'+user+'/favorites').send(fav)
-        .expect(204)
+        .expect(304)
     })
     .then(function()
     {
